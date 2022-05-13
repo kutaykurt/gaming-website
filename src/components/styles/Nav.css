@@ -1,0 +1,37 @@
+.Nav {
+    background-color: #073b4c;
+    padding: 15px;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+}
+
+li {
+    color: #ffd166;
+    list-style-type: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: #ffd166;
+    color: #073b4c;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.login-register {
+    display: flex;
+}

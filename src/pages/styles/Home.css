@@ -1,0 +1,36 @@
+.Home {
+    background-color: #073b4c;
+    border-radius: 22px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.list-box {
+    width: 210px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.list-box:hover {
+    transform: scale(1.06);
+}
+
+.list-image {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.load-more-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    font-size: 30px;
+}
